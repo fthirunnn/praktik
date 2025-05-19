@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir Pendaftaran | SMK Bina Informatika</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Header -->
+  <header class="bg-indigo-800 text-white py-6 text-center">
+    <h1 class="text-3xl font-bold">Selamat Datang</h1>
+    <h2 class="text-3xl font-bold tracking-wide">SMK BINA INFORMATIKA</h2>
+  </header>
+
+  <!-- Navigasi -->
+  <nav class="bg-white shadow text-center py-3">
+    <a href="ppdbbyme.html" class="mx-4 text-indigo-700 font-semibold hover:underline">Beranda</a>
+    <a href="daftar.html" class="mx-4 text-indigo-700 font-semibold underline">Pendaftaran</a>
+    <a href="infoppdb.html" class="mx-4 text-indigo-700 font-semibold hover:underline">Info PPDB</a>
+    <a href="kontak.html" class="mx-4 text-indigo-700 font-semibold hover:underline">Kontak</a>
+  </nav>
+
+  <!-- Konten -->
+  <main class="p-10">
+    <h3 class="text-2xl font-bold text-center text-indigo-800 mb-6">Formulir Pendaftaran Siswa Baru</h3>
+    <form class="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow space-y-4">
+      <input type="text" placeholder="Nama Lengkap" class="w-full p-3 border rounded" required />
+      <input type="text" placeholder="NISN" class="w-full p-3 border rounded" required />
+      <input type="email" placeholder="Email" class="w-full p-3 border rounded" required />
+      <input type="tel" placeholder="No HP/WhatsApp" class="w-full p-3 border rounded" required />
+      <select class="w-full p-3 border rounded" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option>Rekayasa Perangkat Lunak</option>
+        <option>Multimedia</option>
+        <option>TKJ</option>
+        <option>PKM</option>
+        <option>OTKP</option>
+      </select>
+      <button type="submit" class="w-full bg-indigo-700 text-white p-3 rounded hover:bg-indigo-800">
+        Kirim Pendaftaran
+      </button>
+    </form>
+  </main>
+
+  <footer class="text-center py-4 text-sm text-gray-500">
+    &copy; 2025 fthiirruuun. All rights reserved.
+  </footer>
+</body>
+</html>

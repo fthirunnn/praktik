@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PPDB SMK Bina Informatika</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+         transform: translateY(20px);
+     }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in-up {
+     animation: fadeInUp 1s ease-out;
+    }
+
+    .hero-title {
+     font-size: 2.5rem;
+      font-weight: 700;
+      color: #4b6cb7;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+      color: #607d8b;
+    }
+
+    .hero-button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1.125rem;
+      border-radius: 0.375rem;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+... }
+
+... .hero-button:hover {
+      background-color: #2563eb;
+    }
+
+    .program-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .program-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   }
+
+   .program-card img {
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+    }
+  </style>
+
+  </head>
+
+ <body class="bg-gray-100 font-sans">
+
+  <!-- Header dan Navigasi -->
+    <header class="bg-indigo-800 text-white px-8 py-6 shadow-md">
+    <div class="text-center mb-4">
+    <img src="logo.jpg" alt="Logo Sekolah" class="mx-auto w-20 h-20 rounded-full border-4 border-white shadow-lg mb-2">
+    <h1 class="text-3xl font-bold tracking-wide">SMK Bina Informatika</h1>
+    </div>
+    <nav class="flex justify-center gap-8 text-lg">
+     <a href="ppdbbyme.html" class="hover:text-yellow-300">Beranda</a>
+     <a href="infoppdb.html" class="hover:text-yellow-300">Info PPDB</a>
+     <a href="kontak.html" class="hover:text-yellow-300">Kontak</a>
+     <a href="daftar.html" class="hover:text-yellow-300">Daftar</a>
+     </nav>
+  </header>
+
+  <!-- Marquee -->
+    <div class="bg-yellow-400 py-3">
+     <marquee behavior="scroll" direction="left" class="<text-indigo></text-indigo>-900 font-semibold">
+     Pendaftaran Peserta Didik Baru SMK Bina Informatika Tahun 2025 Telah Dibuka! Daftarkan Dirimu Sekarang! Dan Ada Free DSP Untuk 100 Orang Tercepat!
+     </marquee>
+    </div>
+
+  <!-- Hero Section -->
+  <section class="text-center p-10 bg-gradient-to-r from-indigo-100 to-white fade-in-up">
+    <h2 class="hero-title">Selamat Datang</h2>
+    <h1 class="text-2xl font-extrabold text-indigo-800 tracking-wider mb-4">PPDB SMK BINA INFORMATIKA</h1>
+    <p class="hero-subtitle max-w-2xl mx-auto">Sekolah berbasis teknologi yang siap membentuk siswa berprestasi dan siap kerja!</p>
+     <a href="ppdbbyme.html" class="hero-button">Lihat Info Lengkap</a>
+  </section>
+
+  <!-- Program Keahlian -->
+  <section id="info" class="p-10 bg-white">
+    <h3 class="text-2xl font-bold text-center text-indigo-700 mb-8">Program Keahlian Unggulan</h3>
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <a href="rpl.html" class="block bg-indigo-50 p-6 rounded-xl shadow hover:scale-105 transition duration-300">
+        <img src="rpl-logo.png" alt="RPL" class="w-40 h-40 object-cover rounded-lg mb-3">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-800">Rekayasa Perangkat Lunak (RPL)</h4>
+        <p class="text-gray-600">Pelajari pemrograman, pembuatan aplikasi, dan pengembangan web modern.</p>
+      </a>
+      <a href="mm.html" class="block bg-indigo-50 p-6 rounded-xl shadow hover:scale-105 transition duration-300">
+        <img src="mm-logo.png" alt="MM" class="w-40 h-40 object-cover rounded-lg mb-3">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-800">Multimedia (MM)</h4>
+        <p class="text-gray-600">Belajar desain grafis, fotografi digital, video editing, dan animasi.</p>
+      </a>
+      <a href="tkj.html" class="block bg-indigo-50 p-6 rounded-xl shadow hover:scale-105 transition duration-300">
+        <img src="tkj-logo.png" alt="TKJ" class="w-40 h-40 object-cover rounded-lg mb-3">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-800">Teknik Komputer Jaringan (TKJ)</h4>
+        <p class="text-gray-600">Bangun kemampuan profesional di bidang jaringan komputer dan infrastruktur IT.</p>
+      </a>
+      <a href="pkm.html" class="block bg-indigo-50 p-6 rounded-xl shadow hover:scale-105 transition duration-300">
+        <img src="pkm-logo.png" alt="PKM" class="w-40 h-40 object-cover rounded-lg mb-3">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-800">Perbankan dan Keuangan Makro (PKM)</h4>
+        <p class="text-gray-600">Ahli dalam manajemen keuangan, akuntansi, dan praktik perbankan.</p>
+      </a>
+      <a href="otkp.html" class="block bg-indigo-50 p-6 rounded-xl shadow hover:scale-105 transition duration-300">
+        <img src="otkp-logo.png" alt="OTKP" class="w-40 h-40 object-cover rounded-lg mb-3">
+        <h4 class="text-xl font-semibold mb-2 text-indigo-800">Otomatisasi dan Tata Kelola Perkantoran (OTKP)</h4>
+        <p class="text-gray-600">Mempersiapkan tenaga administrasi perkantoran modern dan efisien.</p>
+      </a>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-sm text-gray-500 bg-white border-t">
+    &copy; 2025 fthiirruuun. All rights reserved.
+  </footer>
+
+</body>
+</html>
